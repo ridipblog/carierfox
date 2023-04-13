@@ -1,0 +1,4 @@
+.word_break{
+    word-wrap: break-word;
+    word-break: break-all;
+}
