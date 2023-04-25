@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/class.css?version=1'>
+    <link rel='stylesheet' href='css/index.css?version=1'>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="header_name word_break">
+            <h1>c<span id="header_text"></span></h1>
+        </div>
+        <div class="navbar_div">
+            <a class="nav_link_1" href="">Home Page</a>
+            <a class="nav_link_1" href="">Search College</a>
+            <a class="nav_link_1" href="">Entrance Exam</a>
+            <a class="nav_link_1" href="">Scholarship </a>
+            <a class="nav_link_1" href="">Study Material </a>
+            <a class="nav_link_1" href="">Notification </a>
+        </div>
+        <div class="nav_logo">
+            <img src="images/navbar.png" id="navbar_logo" onclick="nav_fun1()">
+        </div>
+    </div>
+    <div class="header header_1">
+        <div class="navbar_div navbar_div_1">
+            <a class="nav_link_2" href="">Home Page</a>
+            <a class="nav_link_2" href="">Search College</a>
+            <a class="nav_link_2" href="">Entrance Exam</a>
+            <a class="nav_link_2" href="">Scholarship </a>
+            <a class="nav_link_2" href="">Study Material </a>
+            <a class="nav_link_2" href="">Notification </a>
+        </div>
+    </div>
+    <div class="flex_div second_nav">
+        <div class="flex_div nav">
+            <a href="" class="font_style nav_link">Government Job <img
+                    src="https://img.icons8.com/external-outline-design-circle/20/null/external-Government-Jobs-job-services-outline-design-circle.png" /></a>
+            <a href="" class=" font_style nav_link">Private Job <img
+                    src="https://img.icons8.com/external-outline-design-circle/20/null/external-Government-Jobs-job-services-outline-design-circle.png" /></a>
+            <a href="" class=" font_style nav_link">Exam Admit <img
+                    src="https://img.icons8.com/ios/20/null/exam.png" /></a>
+            <a href="" class=" font_style nav_link">Upload Resume <img
+                    src="https://img.icons8.com/material-outlined/20/null/resume.png" /></a>
+            <a href="" class=" font_style nav_link">Freelanching <img
+                    src="https://img.icons8.com/external-outline-juicy-fish/20/null/external-freelancing-side-hustles-outline-outline-juicy-fish.png" /></a>
+            <a href="" class=" font_style nav_link">Schemes <img
+                    src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/20/null/external-schemes-team-management-xnimrodx-lineal-xnimrodx.png" /></a>
+        </div>
+    </div>
+    <div class="flex_div font_style word_break government_header">
+        <h1>Government Jobs Short</h1>
+    </div>
+    <div class="flex_div government_search">
+        <div class="flex_div government_search_1">
+            <div class="government_search_div">
+                <input type="text" class="font_style government_search_input" oninput="government_title_fun_1()" placeholder="Job Title">
+                <button class="background_class font_style category_button" onclick="reset_government_short_1()">reset <i class="fa fa-refresh"></i></button>
+            </div>
+            <span class="crose_1" onclick="close_government_title()"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+            <div class="flex_div government_search_3">
+
+            </div>
+        </div>
+        <div class="flex_div government_search_1">
+            <div class="government_search_div">
+                <!-- <input type="text" class="font_style government_search_input" placeholder="Job Qualification"> -->
+                <button class="background_class font_style category_button" onclick="reset_government_short_2()">reset <i class="fa fa-refresh"></i></button>
+            </div>
+            <span class="crose_1"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+            <div class="flex_div government_search_3">
+
+            </div>
+        </div>
+    </div>
+    <div class="government_div">
+        <div class="government_div_2">
+        </div>
+    </div>
+    <div class="flex_div font_style word_break government_header">
+        <h1>Private Job Short</h1>
+    </div>
+    <div class="flex_div private_search">
+        <div class="flex_div private_search_1">
+            <div class="private_search_div">
+                <input type="text" class="font_style private_search_input" oninput="privare_title_fun_1()"
+                    placeholder="Job Title">
+                <button class="background_class font_style category_button" onclick="reset_private_short_1()">Reset <i
+                        class="fa fa-refresh"></i></button>
+            </div>
+            <span class="crose" onclick="close_private_title()"><i class="fa fa-window-close"
+                    aria-hidden="true"></i></span>
+            <div class="flex_div private_search_3">
+
+            </div>
+        </div>
+        <div class="flex_div private_search_1">
+            <div class="private_search_div">
+                <input type="text" class="font_style private_search_input" oninput="private_location_fun_1()"
+                    placeholder="Job Location">
+                <button class="background_class font_style category_button" onclick="reset_private_short_2()">Reset <i
+                        class="fa fa-refresh"></i></button>
+            </div>
+            <span class="crose" onclick="close_private_location()"><i class="fa fa-window-close"
+                    aria-hidden="true"></i></span>
+            <div class="flex_div private_search_3">
+
+            </div>
+        </div>
+    </div>
+    <div class="flex_div private_div">
+        <div class="flex_div private_div_2">
+
+        </div>
+
+    </div>
+    <div class="flex_div footer_div">
+        <div class=" flex_div footer_div_1">
+            <p class="font_style footer_h">Service  <i class="fa fa-wrench" aria-hidden="true"></i>
+            </p>
+            <p class="font_style" >Web Development</p>
+            <p class="font_style">Software Development</p>
+        </div>
+        <div class="flex_div footer_div_1">
+            <p class="footer_h">Contact <i class="fa fa-address-book"></i></p>
+            <p class="font_style">Email: techxy7@gmail.com</p>
+            <p class="font_style">Phone: 6900898829</p>
+        </div>
+        <div class="flex_div footer_div_1">
+            <span>
+                <i class="fa fa-facebook" style="color: #f2eeee;"></i>&nbsp; &nbsp; &nbsp; 
+                <i class="fa fa-instagram" style="color: #f2eeee;"></i> &nbsp; &nbsp; &nbsp; 
+                <i class="fa fa-youtube" style="color: #f2eeee;"></i> 
+            </span>
+            <p class="footer_h">Techxy <i class="fa fa-building-o" aria-hidden="true"></i></p>
+        </div>
+    </div>
+    <script src="https://use.fontawesome.com/0e0d1ef1c5.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="./json/private_title.json"></script>
+    <script src="./json/private_job_short.json"></script>
+    <script src="./json/government_title.json"></script>
+    <script src="./json/government_job_short.json"></script>
+    <script src="js/index.js"></script>
+    <script>
+        document.getElementsByClassName("nav_link_1")[0].style="color:yellow;";
+    </script>
+</body>
+
+</html>

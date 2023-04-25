@@ -1,0 +1,71 @@
+.word_break{
+    word-break: normal;
+}
+.flex_div{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+}
+.background_class{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: black;
+    cursor: pointer;
+}
+.font_style{
+    color:black;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    outline: none;
+}
+.crose{
+    margin: 10px 0px 0px 0px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.crose_1{
+    margin: 10px 0px 0px 0px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.government_div::-webkit-scrollbar {
+    width: 1px;
+    height: 13px;
+    background-color: grey;
+}
+.private_search_2::-webkit-scrollbar{
+    width: 5px;
+    height: 1px;
+    background-color: gray;
+}
+.government_search_2::-webkit-scrollbar{
+    width: 5px;
+    height: 1px;
+    background-color: gray;
+}
+.private_search_3::-webkit-scrollbar{
+    width: 5px;
+    height: 1px;
+    background-color: gray;
+
+}
+.government_search_3::-webkit-scrollbar{
+    width: 5px;
+    height: 1px ;
+    background-color: gray;
+}
+.private_div::-webkit-scrollbar{
+    width: 10px;
+    height: 1px;
+    background-color: gray;
+}
